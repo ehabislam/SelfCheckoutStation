@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2021-04-14T22:55:37.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="D3aHWVHE54Nx0879GeZU" version="14.6.0" type="github">
+  <diagram id="m85lQiqwjp8Jra7hm7Yu" name="Page-1">
+    <mxGraphModel dx="961" dy="86" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8XBxmYZMB2tS_atIxVqo-1" value=" BaggingAreaListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1874" y="1470" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8XBxmYZMB2tS_atIxVqo-2" value="- session : Session&#xa;- currentWerght : double&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8XBxmYZMB2tS_atIxVqo-1" vertex="1">
+          <mxGeometry y="26" width="430" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="8XBxmYZMB2tS_atIxVqo-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8XBxmYZMB2tS_atIxVqo-1" vertex="1">
+          <mxGeometry y="70" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8XBxmYZMB2tS_atIxVqo-4" value="+ BaggingAreaListenerSoftware(session: Session, CUS: CustomerUseCases)&#xa;+ checkConform(scale: ElectronicScale, item: Item) &#xa;+ weightChanged(scale: ElectronicScale, item: Item)&#xa;+ overload(scale: ElectronicScale)&#xa;+ outOfOverload(scale: ElectronicScale)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8XBxmYZMB2tS_atIxVqo-1" vertex="1">
+          <mxGeometry y="78" width="430" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-1" value="BanknoteDispenserListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="1450" width="420" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-2" value="+ stationUsage : StationUsage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-1" vertex="1">
+          <mxGeometry y="26" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-1" vertex="1">
+          <mxGeometry y="52" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-4" value="+ BanknoteDispenserListenerSoftware(station: StationUsage)&#xa;+ bankntoesFull(dispenser : BanknoteDispenser)&#xa;+ banknotesEmpty(dispenser : BanknoteDispenser)&#xa;+ banknoteAdded(dispenser : BanknoteDispenser, banknote: Banknote)&#xa;+ banknoteRemoved(dispenser : BanknoteDispenser, banknote: Banknote)&#xa;+ banknotesLoaded(dispenser : BanknoteDispenser, banknote: Banknote)&#xa;+ banknotesUnloaded(dispenser : BanknoteDispenser, banknote : Banknote)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-1" vertex="1">
+          <mxGeometry y="60" width="420" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-5" value="BanknoteSlotListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="2070" y="1010" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-6" value="- changeCounter: ChangeCounter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-5" vertex="1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-5" vertex="1">
+          <mxGeometry y="52" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-8" value="+ banknoteEjected(slot: banknoteSlot): void&#xa;+ banknoteRemoved(slot: BanknoteSlot): void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-5" vertex="1">
+          <mxGeometry y="60" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-9" value="BanknoteStorageUnitListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1792" y="1150" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-10" value="+ session : Session" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-9" vertex="1">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-9" vertex="1">
+          <mxGeometry y="52" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-12" value="+ banknotesFull(unit : BanknoteStorageUnit)&#xa;+ banknoteAdded(unit : BanknoteStorageUnit)&#xa;+banknotesLoaded(unit : BanknoteStorageUnit)&#xa;+ banknotesUnloaded(unit : BanknoteStorageUnit)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-9" vertex="1">
+          <mxGeometry y="60" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-13" value="banknoteValidatorListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="1320" width="470" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-14" value="-session: Session&#xa;- paymentService : PaymentService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-13" vertex="1">
+          <mxGeometry y="26" width="470" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-13" vertex="1">
+          <mxGeometry y="60" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-16" value="+ BanknoteValidatorListenerSoftware(session : Session)&#xa;+ validBanknoteDetected(validator: BanknoteValidator, currency: Currency, value, int)&#xa;+ invalidBanknoteDetected(validator: BanknoteValidator)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-13" vertex="1">
+          <mxGeometry y="68" width="470" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-17" value="BarcodeScannerListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="1320" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-18" value="- session: Session" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-17" vertex="1">
+          <mxGeometry y="26" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-17" vertex="1">
+          <mxGeometry y="52" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-20" value="+ barcodeScanned(barcodeScanner: BarcodeScanner, barcode, Barcode)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-17" vertex="1">
+          <mxGeometry y="60" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-21" value="CardReaderListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="1110" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-22" value="- session : Session&#xa;+ mCard : MembershipCard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-21" vertex="1">
+          <mxGeometry y="26" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-21" vertex="1">
+          <mxGeometry y="70" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-24" value="+ cardInserted(reader : CardReader)&#xa;+ cardRemoved(reader : CardReader)&#xa;+ cardTapped(reader : CardReader)&#xa;+ cardSwiped(reader : CardReader)&#xa;+ cardDataRead(reader : CardReader, data : CardData)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-21" vertex="1">
+          <mxGeometry y="78" width="320" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-25" value="CoinDispenserListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="900" width="350" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-26" value="- stationUsage : StationUsage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-25" vertex="1">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-25" vertex="1">
+          <mxGeometry y="52" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-28" value="+ CoinDispenserListenerSoftware(stationUsage : StationUsage)&#xa;+ coinsFull(dispenser : CoinDispenser)&#xa;+ coinsEmpty(dispenser : CoinDispenser)&#xa;+ coinAdded(dispenser : CoinDispenser)&#xa;+ coinRemoved(dispenser : CoinDispenser, coin : Coin)&#xa;+ coinsLoaded(dispenser : CoinDispenser, coin : Coin...)&#xa;+ coinsUnoaded(dispenser : CoinDispenser, coin : Coin...)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-25" vertex="1">
+          <mxGeometry y="60" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-29" value="CoinStorageUnitListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1569" y="868" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-30" value="- session : Session" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-29" vertex="1">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-29" vertex="1">
+          <mxGeometry y="52" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-32" value="+ coinsFull(unit : CoinStorageUnit)&#xa;+ coinAdded(unit : CoinStorageUnit)&#xa;+ coinsLoaded(unit : CoinStorageUnit)&#xa;+ coinsUnloaded(unit : CoinStorageUnit)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-29" vertex="1">
+          <mxGeometry y="60" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-33" value="CoinTrayListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="1120" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-34" value="- changeCounter : ChangeCounter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-33" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-33" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-36" value="+coinAdded(tray : CoinTray)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-33" vertex="1">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-37" value="CoinValidatorListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="868" width="360" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-38" value="-session : Session&#xa;- paymentService : PaymentService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-37" vertex="1">
+          <mxGeometry y="26" width="360" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-37" vertex="1">
+          <mxGeometry y="60" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sOyNVCy7xmM99SLEfcwM-40" value="+ CoinValidatorListenerSoftware(session : Session) &#xa;+ validCoinDetected(validator : CoinValidator, value : BigDecimal)&#xa;+ invalidCoinDetected(validator : CoinValidator)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sOyNVCy7xmM99SLEfcwM-37" vertex="1">
+          <mxGeometry y="68" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVjqT82X8_QH9-J5xdfO-1" value="PLUScannerListenerSoftware" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1010" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HVjqT82X8_QH9-J5xdfO-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HVjqT82X8_QH9-J5xdfO-1">
+          <mxGeometry y="26" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HVjqT82X8_QH9-J5xdfO-4" value="+weightChanged(scale : ElectronicScale, weightInGrams : double)&#xa;+ overload(scale : ElectronicScale)&#xa;+outOfOverload(scale : ElectronicScale)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HVjqT82X8_QH9-J5xdfO-1">
+          <mxGeometry y="34" width="360" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

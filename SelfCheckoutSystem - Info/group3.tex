@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Winter 2021 SENG 300}
+\lhead{Group Project, Iteration 3}
+\rfoot{\thepage}
+
+\begin{document}
+
+    \title{SENG 300 - Group Project, Iteration 3}
+    \date{}
+    \author{}
+    \maketitle
+
+    \thispagestyle{empty}
+
+    
+    \begin{center}
+    
+
+    \begin{tabular}{c c c}
+        \textbf{Members} & \textbf{UCID} & \textbf{\texttt{git}} \\
+        \\\hline\\
+        Ryan Allard & 30085796 & \texttt{HN67} \\
+        Seher Dawar & 30087391 & \texttt{SeherD} \\
+        Leinard Grande & 30042415 & \texttt{leinardjg} \\
+        Ehab Islam & 30105153 & \texttt{ehabislam} \\
+        Lubdhak Juyal & 30045497 & \texttt{monsoonssn} \\
+        Christopher Kozbial & 30061532 & \texttt{meebee70} \\        
+        Suvrat Kumra & 30089629 & \texttt{suvratkumra} \\
+        Dongheok Lee & 30041784 & \texttt{HeDoLe} \\
+        Htet Myet Aung Naing & 30107013 & \texttt{htetm} \\
+        Markus Pistner & 30081575 & \texttt{MarkusP1} \\
+        Shahab Salem & 30079334 & \texttt{ShehabSN} \\
+        Abhay Sharma & 30095410 & \texttt{Abhay189} \\
+        Kyle Wen & 30061704 & \texttt{Kiiii01} \\
+        Yuzhe Zhou & 30102199 & \texttt{Zhezhee} \\
+    \end{tabular}
+
+    \end{center}
+
+    \clearpage
+    \pagenumbering{arabic}
+    \section*{Testing Setup}
+
+    \begin{itemize}
+
+        \item[] In order for the testing project to be run as a JUnit test,
+        three dependencies are required, as described in the \texttt{.classpath} file.
+
+        \item[] Namely, 
+        \begin{itemize} 
+            \item[] \texttt{SelfCheckoutSystem - Hardware - v3.1},
+            \item[] \texttt{SelfCheckoutSystem - Software},
+            \item[] and JUnit 4 
+        \end{itemize}
+        are required dependencies.
+
+    \end{itemize}
+
+    \section*{Project Description}
+
+    Our simulator has three main sections; an attendant console, station(s), and hardware simulator.
+    
+    Once a user starts a transaction on a station, they can perform a variety of actions,
+    such as adding their own bags, looking up products, entering a PLU, buying bags, and paging the attendent for help.
+    Most of this functionality is implemented via buttons that toggle between different panels with inputs.
+
+    The hardware simulator has functionality to simulate scanning items,
+    adding items to the bagging area, adding coins and banknotes, and inserting a card.
+
+    The attendent console can start and shutdown stations, as well as block them.
+
+\end{document}

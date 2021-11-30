@@ -1,0 +1,338 @@
+1d6e06b - (HEAD -> main, origin/main) Copy planning into software <HN67>
+9f00c69 - Gui changes <Seher Dawar>
+e13b83b - updated receipt printer test case, revamped control panel to load lazily <Shahab>
+26f2416 - implemented remove item from list <monsoonssn>
+1a0331a - Merge pull request #34 from SeherD/printer_fixes <Leinard Grande>
+e306441 - removed attendant weight discrepancy <Shahab>
+29ef7fd - (origin/printer_fixes) Merge branch 'main' into printer_fixes <Leinard Grande>
+059cba9 - Modified printer tests <Leinard Grande>
+18652c4 - Merge branch 'diagram-cleanup' into main <HN67>
+369c726 - (origin/diagram-cleanup, diagram-cleanup) Update cover page <HN67>
+27cf3d4 - Merge pull request #33 from SeherD/diagram-cleanup <meebee70>
+d1b211a - GUI changes <Seher Dawar>
+907fddc - fixed session construction bugs <Shahab>
+e8dfe9a - formatting <HN67>
+1189558 - Update state_diagram.drawio <meebee70>
+4f0647d - Update sequence_stationPanel.drawio <HN67>
+9f5a976 - Update state_attendant.drawio <meebee70>
+17046d8 - Add PLU entering to stationPanel <HN67>
+f493a05 - Update state_attendant.drawio <meebee70>
+69ae8e2 - Merge branch 'diagram-cleanup' of https://github.com/SeherD/SelfCheckoutIteration3 into diagram-cleanup <meebee70>
+fd350c4 - Update sequence_teamBCases.drawio <meebee70>
+08bcaa6 - Completed tests for team c <htetm>
+a11b3e2 - remove unused usecase <meebee70>
+5549c9d - Made listener update station usage <htetm>
+d8d7d39 - Update sequence_maintenance.drawio <meebee70>
+6772a7c - Add lookup sequence model <HN67>
+567c587 - Update sequence_maintenance.drawio <meebee70>
+4644926 - Merge branch 'diagram-cleanup' of https://github.com/SeherD/SelfCheckoutIteration3 into diagram-cleanup <meebee70>
+8508ba6 - fix bug with adding ink <meebee70>
+615799e - Updated unloaded for storage units <htetm>
+e746c83 - Added sequence_stationPanel.drawio <HN67>
+1575b48 - Fix sequence_maitenence <HN67>
+25a6376 - Merge branch 'diagram-cleanup' of https://github.com/SeherD/SelfCheckoutIteration3 into diagram-cleanup <meebee70>
+bb4866b - rename unknown diagram <meebee70>
+a8b4d14 - paperAdded usecase sequence <HN67>
+97496e4 - rename more diagrams <meebee70>
+d47fbbb - rename diagrams <meebee70>
+03884b6 - clean CustomerUseCases.drawio <meebee70>
+ee37877 - Added sequence_maintenance.drawio <HN67>
+266dad5 - Cleanup TeamBsequence <HN67>
+8f0db33 - Update StructuralDiagram.drawio <HN67>
+14daf4b - fix dumb syntax error <monsoonssn>
+792397e - gui list works <monsoonssn>
+541aa0c - Completed tests for Refilling dispensers and emptying storage units <htetm>
+563d6d0 - remove unused diagrams <meebee70>
+32a82c9 - Add files via upload <Kiiii01>
+d205016 - Merge pull request #32 from SeherD/team-b <HN67>
+2367b39 - Add files via upload <Kiiii01>
+2cdc84f - created GUIDispatch stub for testing <Shahab>
+c48e18f - Merge pull request #31 from SeherD/diagramming <meebee70>
+add99e0 - Merge branch 'main' into diagramming <meebee70>
+8fe5ec5 - Clean StructuralDiagram.drawio <meebee70>
+40b42eb - removed unused code and clean up <Shahab>
+e4809a6 - Merge pull request #30 from SeherD/Team-C <Lubdhak Juyal>
+956f6a8 - (origin/Team-C, Team-C) adds to list through gui <monsoonssn>
+b9cb015 - (diagramming) Update login Sequence.drawio <meebee70>
+a9298ed - Update login Sequence.drawio <meebee70>
+515560e - (origin/team-b, team-b) Update gui structural.drawio adding hardwareSimulator class <suvratkumra>
+8e0474f - Merge branch 'HardwareSimulator' into main <Seher Dawar>
+d0b9163 - (origin/HardwareSimulator) Update HardwareSimulator.java <Seher Dawar>
+a8654d0 - Update TeamBSequenceDiagram fixing the lifelines <suvratkumra>
+13a5da7 - deleted unused classes <Kiiii01>
+70975bb - Update StructuralDiagram.drawio adding hardwareSimulator class <suvratkumra>
+179ae66 - Update StructuralDiagram.drawio adding the new GUI class (hardwareSimulator) <suvratkumra>
+62ec4d6 - Clean imports <HN67>
+0ea3ff7 - (origin/testing, testing) Merge remote-tracking branch 'origin/packaging' into main <HN67>
+b104b48 - Merge remote-tracking branch 'origin/cpanel-attendant-usecases' into main <HN67>
+6076c9e - Merge branch 'testing' into main <HN67>
+510734d - Update Detailed Session Structural.drawio completed <suvratkumra>
+24ac1b4 - Update Detailed Session Structural.drawio completed <suvratkumra>
+45f0c99 - package listeners into listener package <meebee70>
+6bcfacb - Merge pull request #26 from SeherD/team-b <HN67>
+8bc321f - Merge branch 'main' into team-b <HN67>
+96c35bc - (origin/cpanel-attendant-usecases) fixed test error in scs constructor <Shahab>
+4a98d0a - added attendant use cases connection to Controlpanel <Shahab>
+448001f - Lookup added to attendant console <Seher Dawar>
+86c4181 - Merge pull request #25 from SeherD/Team-C <HN67>
+8875ed2 - Clean StructuralDiagram.drawio <meebee70>
+48fe91c - Merge pull request #24 from SeherD/team-A <HN67>
+6ed4d55 - Merge branch 'main' into Team-C <HN67>
+9a077d7 - (origin/team-A, team-A) Merge branch 'main' into team-A <HN67>
+9b17a63 - Merge branch 'team-b' of https://github.com/SeherD/SelfCheckoutIteration3 into team-b <HeDoLe>
+cd69424 - Merge pull request #23 from SeherD/info <HN67>
+f7d0985 - (origin/info, info) Add potential gitlog files <HN67>
+7d973e8 - LookUpTab implemented <HeDoLe>
+6a7fa3a - Move diagrams into folder <HN67>
+acae0cd - Merge branch 'main' into info <HN67>
+22baaee - Update TeamBStateDiagram done <suvratkumra>
+4517abf - remove repeating class in AllTests <monsoonssn>
+4630bc0 - Merge pull request #22 from SeherD/main <meebee70>
+4468d8b - Merge pull request #21 from SeherD/diagramming <meebee70>
+d916c21 - fix some CustomerUseCasesTest and ReceiptPrinterResourcesTest tests <monsoonssn>
+77c70fc - changed booleans initialization <htetm>
+a1f1736 - Update Detailed Session Structural.drawio not done <suvratkumra>
+e4837da - Added tests for Emptying Storage Units <htetm>
+eaf2c12 - Added Sequence.drawio <HN67>
+3daf622 - Update StructuralDiagram.drawio <meebee70>
+d338915 - Update group members list <HN67>
+91c85c7 - Added tests for refill dispenser use cases <htetm>
+d7b3596 - Update StructuralDiagram.drawio <meebee70>
+7a053a9 - Update listeners detailed structural.drawio completed <suvratkumra>
+2ff732b - Merge branch 'testing' of https://github.com/SeherD/SelfCheckoutIteration3 into testing <htetm>
+d117b5d - Station usage change Set to boolean for storage units <htetm>
+1d81a2e - Merge branch 'team-b' of https://github.com/SeherD/SelfCheckoutIteration3 into team-b <HeDoLe>
+3193768 - for checking <HeDoLe>
+7a9ad30 - Update StructuralDiagram.drawio <meebee70>
+654da04 - added maintenance list to control panel <Shahab>
+546bab5 - Fixed discrepancyApproval <HeDoLe>
+c2f2b0b - Update Attendant TeamB usecases StateDiagram changing the checkConform <suvratkumra>
+a6bce7e - Update StructuralDiagram.drawio <meebee70>
+81995af - Update state Diagram.drawio <Zhezhee>
+caa77e7 - Fixed AttendentConsole <HeDoLe>
+b34fdeb - Add rudimentary BALS to CustomerUseCases diagram <HN67>
+35194d0 - changed is.getCurrentPrice references to session.getBalance() in ItemScannerTest <monsoonssn>
+ad9f06d - changed SessionTest and added generateReceiptContent tests <monsoonssn>
+52370d0 - Merge branch 'main' into team-A <ehabislam>
+9cb9ec9 - Update AttendantBootAndLogTest.java <ehabislam>
+2479f8e - Update CustomerUseCases.drawio <HN67>
+5acdb41 - Restructured gui <Seher Dawar>
+70bcfa2 - changed SessionTest and added generateReceiptContent tests <monsoonssn>
+7f97308 - Add return to scan in  state Diagram.drawio <Zhezhee>
+01b788f - removed unused lines <HeDoLe>
+392c629 - Fixed checkConform <HeDoLe>
+e97753f - Storage units changed set to boolean <htetm>
+7e5b979 - Update Detailed Session Structural.drawio <meebee70>
+57a2aa7 - Update listeners detailed structural.drawio <meebee70>
+8017250 - Add all elements to StructuralDiagram.drawio <meebee70>
+16f68f8 - Update listeners detailed structural.drawio <meebee70>
+d8f9f89 - Added listeners detailed structural.drawio <meebee70>
+46da51d - Team B tests <Leinard Grande>
+6786a8e - Update Detailed Session Structural.drawio <meebee70>
+161677e - Added Detailed Session Structural.drawio <meebee70>
+34e7fad - Update weight and find item in state Diagram.drawio <Zhezhee>
+c67abad - Merge branch 'main' into team-A <ehabislam>
+60fd882 - Team B tests <Leinard Grande>
+17acaa5 - Removing some unnecessary code and fixed AllTest class (a bit) <Abhay189>
+3c0c9af - fix AllTests to include a test <monsoonssn>
+2a25de7 - Add some state in state Diagram.drawio <Zhezhee>
+eb992d4 - Merge branch 'main' into team-A <ehabislam>
+8212388 - Update StationPanel.java <ehabislam>
+153d5ac - Merge pull request #20 from SeherD/Team-C <Lubdhak Juyal>
+ee1b086 - fix parameters for SelfCheckoutStationInstance <monsoonssn>
+88edab2 - Merge branch 'team-b' into main <Leinard Grande>
+5cb15c5 - Merge pull request #19 from SeherD/Team-C <Lubdhak Juyal>
+68ca369 - Merge branch 'main' into Team-C <monsoonssn>
+bd61c67 - resolved static references warnings <Shahab>
+3fb73e4 - Merge branch 'main' into Team-C <monsoonssn>
+3f6cc07 - Merge pull request #18 from SeherD/gui-updating <Shahab>
+27f2744 - (origin/gui-updating, gui-updating) Merge branch 'main' into gui-updating <Shahab>
+496515b - Merge branch 'main' into Team-C <monsoonssn>
+8e5785b - Created test cases, created ReceiptPrinterManager class for managing station printer, modified Session and StationUsage as necessary. <Leinard Grande>
+50daeef - Update TeamBSequenceDiagram <suvratkumra>
+fc9fbae - Update Attendant TeamB usecases StateDiagram <suvratkumra>
+f51c424 - Update TeamBStateDiagram <suvratkumra>
+7e88d0b - Updated Session to register printer listener <Leinard Grande>
+3a37c1a - Moved paper/ink tracker from session to stationUsage, implemented ReceiptPrinterListenerSoftware <Leinard Grande>
+76a7dc3 - Update GUI.java <Seher Dawar>
+7da546f - Starter cover page and extra description <HN67>
+4b3533d - Update planning to reflect Htets role <HN67>
+bd92b24 - Move planning <HN67>
+1255b5b - Update state Diagram.drawio <Zhezhee>
+031b122 - Update state Diagram.drawio <Zhezhee>
+664cd16 - Created test cases, created ReceiptPrinterManager class for managing station printer, modified Session and StationUsage as necessary. <Leinard Grande>
+f8b9e40 - Update TeamBSequenceDiagram <suvratkumra>
+144c924 - Update StructuralDiagram.drawio <suvratkumra>
+73c1bed - Update Attendant TeamB usecases StateDiagram <suvratkumra>
+f4d79cd - Update TeamBStateDiagram <suvratkumra>
+8f223ac - Updated Session to register printer listener <Leinard Grande>
+d9093d8 - Moved paper/ink tracker from session to stationUsage, implemented ReceiptPrinterListenerSoftware <Leinard Grande>
+21eb61b - added gui update mechanism and gui refactoring <Shahab>
+d845480 - update planning.md <monsoonssn>
+8794347 - all tests are in AllTests suite now <monsoonssn>
+512b56e - renaming boolean wasDiscountGiven to discountGiven <monsoonssn>
+0638f80 - now receipt content from totalProductsList <monsoonssn>
+e42ae58 - Update GUI.java <Seher Dawar>
+8eb14c1 - organized imports <monsoonssn>
+77aebbc - Update Session.java <Seher Dawar>
+ea4f3d4 - remove checkIfLowOnResources method in Session <monsoonssn>
+79e5f6a - fixing typing of bagging area listener in AttendantConsole.java <monsoonssn>
+f6def42 - Merge pull request #14 from SeherD/Team-C <Lubdhak Juyal>
+138da30 - Merge branch 'main' into Team-C <Lubdhak Juyal>
+cc72713 - Merge branch 'team-b' <monsoonssn>
+90ad6aa - Merge branch 'main' into team-b <monsoonssn>
+0107e73 - Fixed stationPanel after merge <Seher Dawar>
+58dc37a - Merge pull request #17 from SeherD/team-A <Lubdhak Juyal>
+e53e507 - Merge branch 'main' into team-A <Lubdhak Juyal>
+35198fd - finished adding tests <MarkusPistner>
+d6ad35c - Storage unit emptying backend added <htetm>
+673ea8f - Implemented new functionality to the GUI and added more tests <ehabislam>
+5aacdb9 - Update TeamBSequenceDiagram fixing arrows <suvratkumra>
+4586407 - Update TeamBSequenceDiagram fixing arrows <suvratkumra>
+dfcf609 - Update TeamBStateDiagram fixing arrows <suvratkumra>
+f3f6d3c - Update StructuralDiagram.drawio adding usecases <suvratkumra>
+9c5c1f7 - Added GiftCardPayment Tests <ehabislam>
+77d9753 - (origin/team-D, team-D) Cleaned up start, stop , block use cases <Seher Dawar>
+f72ff39 - Adjusting Code to new gui changes <ehabislam>
+f037ee8 - Merge branch 'main' into team-A <ehabislam>
+874b85f - Removed unused file and methods. <HeDoLe>
+bd2565d - Added low on ink and paper (and replacement) <HeDoLe>
+4f7656d - Added low on paper method <HeDoLe>
+f26a918 - Update state Diagram.drawio <Zhezhee>
+3b8354a - entersPLUCode now updates Session balance <monsoonssn>
+4750545 - Update TeamBSequenceDiagram completed <suvratkumra>
+2c54ca5 - Update StructuralDiagram.drawio adding the attendant three cases given to team B <suvratkumra>
+5c6cf9b - Update TeamBSequenceDiagram attendant cases done <suvratkumra>
+75fc462 - Merge branch 'main' into Team-C <monsoonssn>
+d17f34c - Added payment screen <Seher Dawar>
+a6d6639 - Merge branch 'main' into Team-C <monsoonssn>
+dc0e33a - fixed CustomerUseCasesTest before method <monsoonssn>
+7302111 - session constructor bug fix in GUI <Shahab>
+877dd20 - Merge branch 'main' into Team-C <monsoonssn>
+6a4a88b - uniform list in session for products added <monsoonssn>
+09ac986 - toString method on Pair class for testing purposes <monsoonssn>
+6463443 - adding things to uniform list tests <monsoonssn>
+6b99b33 - added new utility Pair class <monsoonssn>
+6d05a89 - Update Attendant TeamB usecases StateDiagram fixing errors <suvratkumra>
+65aba08 - Update Attendant TeamB usecases StateDiagram completed <suvratkumra>
+6e65e79 - Merge branch 'team-D' into main <Seher Dawar>
+7004800 - Merge remote-tracking branch 'origin/Team-C' into main <Seher Dawar>
+3952b8c - refactored session constructor to take in scsinstance <Shahab>
+aa28599 - restructuring <Seher Dawar>
+1008d8c - Updated a variable name throughout class <ehabislam>
+39770eb - Update CustomerUseCases.drawio <HN67>
+a041f44 - dispenser implementations <Shahab>
+3ab155d - login tests for attendant <MarkusPistner>
+36b3bf0 - Added Attendant TeamB usecases StateDiagram <suvratkumra>
+381a551 - Added giftcard payment implementation <ehabislam>
+2c977f1 - Added CustomerUseCases structural <HN67>
+1aa7d8d - Adding some more use cases <Abhay189>
+1d00b6c - Create Bagging structural diagram <HN67>
+cb6eb68 - Update login Sequence.drawio <meebee70>
+5dcd781 - Merge branch 'team-A' of https://github.com/SeherD/SelfCheckoutIteration3 into team-A <ehabislam>
+079f6dc - Added membership gui and implementation <ehabislam>
+ab66a04 - Commiting some GUI changes <Abhay189>
+947a25d - Added login Sequence.drawio <meebee70>
+6a46f6e - finish gui structural.drawio <meebee70>
+2cfb1d4 - Update gui structural.drawio <meebee70>
+b77ef46 - Update state Diagram(not done).drawio <Zhezhee>
+07af88d - state Diagram(not done).drawio <Zhezhee>
+55e88ca - Added gui structural.drawio <meebee70>
+ff1f4c7 - Merge pull request #13 from SeherD/main <meebee70>
+de6b719 - Merge pull request #12 from SeherD/main <Shahab>
+3599249 - Adding GUI implementation of some more use cases <Abhay189>
+e3e14dc - added javadoc for StationUsage <monsoonssn>
+6c10764 - Update StationPanel.java <ehabislam>
+12c63af - Trying to add GUI <Abhay189>
+58f2af8 - Merge branch 'team-A' of https://github.com/SeherD/SelfCheckoutIteration3.git into team-A <Abhay189>
+5bb678b - Merge branch 'team-A' of https://github.com/SeherD/SelfCheckoutIteration3.git into team-A <Abhay189>
+85da374 - hi <Abhay189>
+6dc8725 - Merge branch 'main' into team-A <ehabislam>
+e8b14fc - Added major structure for gui <Seher Dawar>
+5bffa88 - Attendant looks up a product. <HeDoLe>
+3a9b17d - Attendant removes product from purchases. <HeDoLe>
+89f7349 - Fix employee name <meebee70>
+450100a - Merge pull request #11 from SeherD/main <meebee70>
+553c166 - Update StructuralDiagram.drawio <meebee70>
+cb9fb0f - Expand StructuralDiagram.drawio <meebee70>
+3987af3 - Attendant approves weight discrepancy. <HeDoLe>
+bab2052 - Merge pull request #10 from SeherD/main <meebee70>
+7f8b839 - Merge branch 'main' into Team-C <monsoonssn>
+36e8258 - generateReceiptContent gives properly formatted receipts <monsoonssn>
+4c4b93d - Added lookupTab gui <Seher Dawar>
+9e31334 - Restructured GUI to allow for multiple stations <Seher Dawar>
+4c3a47c - Changed some merge issues <Seher Dawar>
+91972ae - Restructured GUI to allow for multiple stations <Seher Dawar>
+5121103 - added javadoc to printReceipt and generateReceiptContent in Session <monsoonssn>
+9dc8646 - renaming electronicScaleListener to baggingAreaListener <monsoonssn>
+65d306f - Updated receipt printing and moved to session <Shahab>
+d1f0d72 - refactored receipt printing and bagging area listener <Shahab>
+7ecfdc0 - Merge pull request #8 from SeherD/team-A <Shahab>
+ee5c21a - added pluproduct description and cost for receipt use <Shahab>
+aab73cd - added stationusage structure <Shahab>
+eefba2e - # WARNING: head commit changed in the meantime <ehabislam>
+de9dc09 - Changed some merge issues <Seher Dawar>
+38836c6 - Added StructuralDiagram.drawio <suvratkumra>
+7b35209 - Update planning.md <Zhezhee>
+0fa9d7a - Update TeamBClassDiagram, fixing the arrows <suvratkumra>
+9f25f7b - Update TeamBClassDiagram for the first three use cases <suvratkumra>
+71b848b - Update TeamBStateDiagram, completed the three use cases <suvratkumra>
+18bab7d - Update TeamBStateDiagram, first two use cases <suvratkumra>
+947098c - Added TeamBSequenceDiagram, DN contain anything rn <suvratkumra>
+17c5616 - Added TeamBClassDiagram, DN contain anything rn <suvratkumra>
+5af1aff - Added TeamBStateDiagram, DN contain anything yet <suvratkumra>
+7a915ee - methods implemented, javadoc comments set up <Kiiii01>
+8a6d63d - methods implemented <Kiiii01>
+5b9ce43 - comments changed <Kiiii01>
+9064243 - method added <Kiiii01>
+8228440 - Adding implementation of more Customer related use Cases <Abhay189>
+946da47 - Merge pull request #7 from SeherD/main <Abhay189>
+b2f7b3a - changes made <Kiiii01>
+5300dce - Fixing the error in LowResourcesListener <suvratkumra>
+2403103 - comment change <Kiiii01>
+00257a8 - class changes <Kiiii01>
+988e78a - added weight discrepancy boolean in Session <unknown>
+0f4c13a - Merge branch 'diagramming' into main <Seher Dawar>
+5d31af5 - Merge remote-tracking branch 'origin/team-b' into main <Seher Dawar>
+ead6643 - Merge pull request #5 from SeherD/team-A <Seher Dawar>
+9dfa4a8 - Merge pull request #4 from SeherD/team-D <Seher Dawar>
+2df9f0c - changes to low resources test <unknown>
+f0a0fec - Adding comments to some part of code and implementation of use case 2 without GUI implementation <Abhay189>
+92c671e - Added BaggingAreaTest <unknown>
+60fc8cd - new line printing in test <unknown>
+f876ac1 - added getters for low resources boolean in session, created tests for ink/paper levels <unknown>
+e3c5f03 - Combined NotComformExpListener with ElectronicScaleListenerSoftware, etc <HeDoLe>
+3171c09 - booleans renamed <Kiiii01>
+e6a4487 - method name changed <Kiiii01>
+ef9584d - class changes <Kiiii01>
+6597388 - method changed <Kiiii01>
+62e0c25 - Update Untitled Diagram.drawio <meebee70>
+cd66eb3 - Create general structural diagram <meebee70>
+4213d95 - General Structural.drawio <meebee70>
+e016abe - methods added <Kiiii01>
+4fb7184 - changed file name <Kiiii01>
+48a630b - classes added, may change later on <Kiiii01>
+b64567e - Implement Several Customer usecases <ehabislam>
+fe60e24 - start stop functionality added <Seher Dawar>
+31adb50 - moved the SelfCheckoutInstance to the software <Seher Dawar>
+cbca8f9 - Added attendant console gui <Seher Dawar>
+a14c33b - just creating a new Branch for our team <Abhay189>
+b2ee4cb - Merge pull request #3 from SeherD/main <Seher Dawar>
+ca17933 - Added password recog <Seher Dawar>
+ea41d97 - Skeleton Classes <Seher Dawar>
+382e227 - Merge pull request #2 from SeherD/gui_cleanup <meebee70>
+1a90ea6 - Added when the receipt printer is out of paper or ink. <HeDoLe>
+68e32fd - Implemented NotCornformExpListener <HeDoLe>
+6afb9b9 - (gui_cleanup) QOL in control panel <meebee70>
+1bcba6c - Change control panel to be a separate window <meebee70>
+51f82e4 - Merge pull request #1 from SeherD/gui_cleanup <meebee70>
+e846320 - Make the skeleton look nicer, with better commenting <meebee70>
+c2b5025 - Package software, and add rudimentary gui skeleton <meebee70>
+741fd76 - refactor into 2 projects <monsoonssn>
+ca56242 - Added src and test folders from iteration 2 <Shahab>
+ef36650 - Switch team order and associate teams <HN67>
+e6702cc - Rename groupIteration3Instructions.md to README.md <Lubdhak Juyal>
+3f87f71 - Merge branch 'main' of https://github.com/SeherD/SelfCheckoutIteration3 into main <HN67>
+cd12164 - Reorganize use case division <HN67>
+bf09c0d - adding the instructions to checking <monsoonssn>
+5eff80d - Create planning document <HN67>
